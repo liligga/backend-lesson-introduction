@@ -46,7 +46,7 @@ transition: slide-up
 
 <div>
     <ul>
-        <li v-click>ищем в приложении BotFather</li>
+        <li v-click>ищем в приложении Telegram бота с ником BotFather</li>
         <li v-click>создаем бота</li>
         <li v-click>задаем название</li>
         <li v-click>задаем ник</li>
