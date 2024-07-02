@@ -76,8 +76,8 @@ transition: fade-out
 # Создание проекта(папки) для бота
 
 - файл `.gitignore`
-- файл `main.py`
 - файл `.env`
+- файл `main.py`
 
 ---
 
@@ -100,4 +100,28 @@ transition: fade-out
         </ul>
     <li v-click><span v-mark="{ at: 6, color: 'red', type: 'circle' }">Не должен попадать</span> на гитхаб(гитлаб и т.д.)</li>
     <li v-click="'+2'">Копируем токен, который выдал @BotFather в этот файл</li>
+</ul>
+
+---
+
+# Файл `main.py`
+
+
+<ul>
+    <li v-click class="flex gap-2">
+        <input type="checkbox">
+        <span>Обработчик всех сообщений бота</span>
+    </li>
+    <li v-click class="flex gap-2">
+        <input type="checkbox">
+        <span>Обработчик команды `/start`</span>
+    </li>
+    <li v-click class="flex gap-2">
+        <input type="checkbox">
+        <span>Обработчик команды `/picture`</span>
+    </li>
+    <li v-click class="flex gap-2">
+        <input type="checkbox">
+        <span>Обработчик текстовых сообщений</span>
+    </li>
 </ul>
